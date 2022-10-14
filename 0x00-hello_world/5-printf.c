@@ -11,5 +11,5 @@ int main(void)
 {
 	printf("with proper grammar, but the outcomes is a piece of art,");
 	return (0);
-	}
+}
 
