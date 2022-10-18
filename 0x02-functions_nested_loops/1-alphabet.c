@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * main- program that prints alphabet
- *
- * Return: Always 0
- */
-
+* print_alphabet- program that prints alphabet in lower case
+*
+* Return: Always 0
+*/
 void print_alphabet(void)
 
 {
