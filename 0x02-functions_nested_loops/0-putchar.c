@@ -1,14 +1,19 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * program that prints putchar
+ * main- program that prints _putchar
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
-	_putchar("_putchar");
-	_putchar(\n);
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
+	_putchar('\n');
 
 	return (0);
 }
