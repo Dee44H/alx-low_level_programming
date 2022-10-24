@@ -2,8 +2,9 @@
 #include"main.h"
 
 /**
- * print_triangle - prints a triangle
- * *
+ * print_triangle - prints a triangle of squares
+ * @size: The size of the squares triangle
+ *
  * Return: empty
  */
 void print_triangle(int size)
