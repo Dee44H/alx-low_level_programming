@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words of a string
- * @s: string to be capitalized
+ * cap_string - ...
+ * @s: ...
  *
  * Return: char value
  */
@@ -15,18 +15,17 @@ char *cap_string(char *s)
 	while (s[a])
 	{
 		i = 0;
+
 		while (i < cspc)
-	{
-		if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
-			s[a] -= 32;
+		{
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
 
-		i++;
+			i++;
+		}
 
+		a++;
 	}
 
-	a++;
-
-	}
-
-
+	return (s);
 }
